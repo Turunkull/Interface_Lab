@@ -19,11 +19,11 @@
             return {
                 authenticated: false,
                 mockAccount: {
-                    username: "trinity",
-                    dateofbirth: "22.22.2021",
-                    email: "test@gmail.com",
-                    gender:"male",
-                    password: "231"
+                    username: "",
+                    dateofbirth: "",
+                    email: "",
+                    gender:"",
+                    password: ""
                 }
             }
         },
