@@ -1,0 +1,99 @@
+
+@media only screen and (min-width: 999px) {
+  html, body {
+    font-size: 10px;
+  }
+  .standard .regular, .standard .scientific {
+    display: block!important;
+  }
+}
+
+
+@media only screen and (min-width: 1124px) {
+  html, body {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (min-width: 1309px) {
+  html, body {
+    font-size: 12px;
+  }
+  .standard-calculator {
+    max-width: 860px!important;
+  }
+}
+
+@media only screen and (max-width: 998px) {
+  html, body {
+    font-size: 16px;
+  }
+  .sidebar li a span {
+    display: none;
+  }
+  .sidebar li a {
+    justify-content: center!important;
+  }
+  .sidebar li a img {
+    margin-right: 0;
+  }
+  .content {
+    width: 85% !important;
+  }
+  .history {
+    display: none;
+  }
+  .standard {
+    flex-direction: column-reverse;
+  }
+  .standard .regular, .standard .scientific {
+    justify-content: center!important;
+    width: 100%!important;
+    margin: auto;
+  }
+  .standard .regular ul, .standard .scientific ul {
+    justify-content: center!important;
+    width: 100% !important;
+  }
+  .standard .scientific {
+    display: none;
+  }
+  .standard .regular {
+    max-width: 500px;
+  }
+  .standard-calculator-mode {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 571px) {
+  html, body {
+    font-size: 14px!important;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  html, body {
+    font-size: 12px!important;
+  }
+  .sidebar li a img {
+    height: 20px;
+    width: 20px;
+  }
+  .standard .regular {
+    margin: auto;
+  }
+  .standard .regular, .standard .scientific {
+    max-width: 360px!important;
+  }
+  .io-display {
+    height: 180px;
+  }
+}
+
+
+@media only screen and (max-width: 410px) {
+  html, body {
+    font-size: 10px!important;
+  }
+}
